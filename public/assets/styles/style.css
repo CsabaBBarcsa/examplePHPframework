@@ -1,0 +1,81 @@
+/*
+    Created on : Feb 21, 2023, 2:39:34 PM
+    Author     : csbb
+*/
+html, body, h1, h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #BBB;
+}
+
+/*header*/
+.nav-bar {
+  margin: 10px auto;
+}
+.nav-bar a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #caffff;
+  color: #555;
+}
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/*content*/
+.conent-box {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.conent-box .content {
+  display: grid;
+  justify-items: center;
+}
+
+/*content-parts*/
+.form-container {
+  width: 30%;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container form .input-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.form-container form .input-box.centered {
+  justify-content: center;
+}
+.form-container form .input-box.centered input[type=submit] {
+  padding: 8px 5px;
+  width: 70%;
+}
+
+/*footer*/
+/* other parts */
+.msg-wrapper {
+  padding: 10px 0px;
+  text-align: center;
+}
+.msg-wrapper .msg-warn {
+  color: #ff9900;
+  text-shadow: 1px 1px 1px rgb(50, 50, 50), 1px 1px 8px rgba(255, 153, 0, 0.75);
+}
+.msg-wrapper .msg-error {
+  color: #f00;
+  text-shadow: 1px 1px 1px rgb(50, 50, 50), 1px 1px 8px rgba(255, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=style.css.map */
