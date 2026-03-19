@@ -25,5 +25,6 @@ if(file_exists(SUPPORTPATH.DS.'configs.php'))
     $configs = require_once SUPPORTPATH.DS.'configs.php';
 }
 
-/* starting the application with a singleton */
+/* starting the application with a singleton
+that will get the configs and the ServiceContainer object with services */
 Application::init()->run( $configs, new ServiceContainer($services));
