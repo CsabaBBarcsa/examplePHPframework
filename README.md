@@ -1,2 +1,7 @@
 # examplePHPframework
-Dont't use in production! It's a simple php framework
+
+It's a simple PHP framework with MVC design pattern. It's a learning project.
+
+## Warning‼️
+Dont't use in production! 
+
